@@ -1,34 +1,48 @@
-class Window {
-    public static void main(String[] args) {
+class Window{
+public static void main(String []args){
 
-        int windowId; // declaration
-        System.out.println("i am printing declaration part of windowId:");
-        windowId = 4001; // initialization
-        System.out.println("i am printing initilization part of windowId:" + windowId);
+String[] WindowNames = {"Sliding","Casement","Awning","Bay","Fixed","Louvered","Tilt"};
+int []WindowPrice = {5000,6000,5500,7000,4500,5200,5800};
+double []WindowSize = {4.5,5.0,4.0,6.0,3.5,4.2,4.8};
 
-        String material; // declaration
-        System.out.println("i am printing declaration part of material:");
-        material = "Glass"; // initialization
-        System.out.println("i am printing initilization part of material:" + material);
+System.out.println("*****values at index 0 *****");
+System.out.println(WindowNames[0]);
+System.out.println(WindowPrice[0]);
+System.out.println(WindowSize[0]);
 
-        double price; // declaration
-        System.out.println("i am printing declaration part of price:");
-        price = 2500.75; // initialization
-        System.out.println("i am printing initilization part of price:" + price);
+System.out.println("*****values at index 1 *****");
+System.out.println(WindowNames[1]);
+System.out.println(WindowPrice[1]);
+System.out.println(WindowSize[1]);
 
-        char windowType; // declaration
-        System.out.println("i am printing declaration part of windowType:");
-        windowType = 'S'; // initialization
-        System.out.println("i am printing initilization part of windowType:" + windowType);
+System.out.println("*****values at index 2 *****");
+System.out.println(WindowNames[2]);
+System.out.println(WindowPrice[2]);
+System.out.println(WindowSize[2]);
 
-        boolean isSliding; // declaration
-        System.out.println("i am printing declaration part of isSliding:");
-        isSliding = true; // initialization
-        System.out.println("i am printing initilization part of isSliding:" + isSliding);
+System.out.println("*****values at index 3 *****");
+System.out.println(WindowNames[3]);
+System.out.println(WindowPrice[3]);
+System.out.println(WindowSize[3]);
 
-        long modelNumber; // declaration
-        System.out.println("i am printing declaration part of modelNumber:");
-        modelNumber = 6677889900L; // initialization
-        System.out.println("i am printing initilization part of modelNumber:" + modelNumber);
-    }
+System.out.println("*****values at index 4 *****");
+System.out.println(WindowNames[4]);
+System.out.println(WindowPrice[4]);
+System.out.println(WindowSize[4]);
+
+System.out.println("*****values at index 5 *****");
+System.out.println(WindowNames[5]);
+System.out.println(WindowPrice[5]);
+System.out.println(WindowSize[5]);
+
+System.out.println("*****values at index 6 *****");
+System.out.println(WindowNames[6]);
+System.out.println(WindowPrice[6]);
+System.out.println(WindowSize[6]);
+
+for(String Names : WindowNames){
+System.out.println(Names);
+}
+
+}
 }

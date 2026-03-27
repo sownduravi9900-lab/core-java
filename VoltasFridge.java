@@ -1,4 +1,4 @@
-class VoltasFridge {
+class c {
 
 static String[] fridgeModels = {"VDF201","VDF231","VDF261","VDF301","VDF341","VDF381","VDF421","VDF461"};
 static double[] fridgePrices = {18000,20000,23000,26000,29000,32000,35000,38000};

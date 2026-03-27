@@ -1,22 +1,17 @@
 class Mobile {
 
-String brand = "Samsung";
-int price = 20000;
+    void display() {
 
-void showMobile() {
-System.out.println("Mobile Brand: " + brand);
-}
+        String brand[]={"Samsung","Vivo","Oppo","Realme","Redmi","Apple","OnePlus","Nokia","Motorola","Lava"};
+        int price[]={15000,18000,17000,16000,14000,80000,35000,12000,20000,10000};
+        int ram[]={4,6,8,6,4,8,12,4,6,4};
 
-int getPrice() {
-return price;
-}
+        for(int i=0;i<brand.length;i++){
+            System.out.println(brand[i]+" "+price[i]+" "+ram[i]);
+        }
 
-void setBrand(String newBrand) {
-brand = newBrand;
-System.out.println("New Brand: " + brand);
-}
-
-int addPrice(int extra) {
-return price + extra;
-}
+        for(String b:brand){
+            System.out.println(b);
+        }
+    }
 }

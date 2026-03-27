@@ -1,31 +1,17 @@
 class Car {
 
-    static int noWheel = 4;
-    static String fuelType = "Petrol";
+    void display() {
 
-    public static void main(String[] args) {
+        String brand[]={"Toyota","Honda","Hyundai","Kia","Tata","Mahindra","BMW","Audi","Benz","Skoda"};
+        int price[]={1000000,900000,800000,850000,750000,950000,5000000,5500000,6000000,1200000};
+        int seats[]={5,5,5,5,5,7,5,5,5,5};
 
-        int gear;
-        String carName;
-        long price;
-        String color;
-        boolean isAutomatic;
-        double mileage;
-        int noWheel=6;
+        for(int i=0;i<brand.length;i++){
+            System.out.println(brand[i]+" "+price[i]+" "+seats[i]);
+        }
 
-        gear = 6;
-        carName = "Toyota";
-        price = 1200000;
-        color = "White";
-        isAutomatic = true;
-        mileage = 18.5;
-
-        System.out.println("CAR NAME : " + carName);
-        System.out.println("GEAR : " + gear);
-        System.out.println("PRICE : " + price);
-        System.out.println("COLOR : " + color);
-        System.out.println("AUTOMATIC : " + isAutomatic);
-        System.out.println("MILEAGE : " + mileage);
-        System.out.println("FUEL TYPE : " + fuelType);
+        for(String b:brand){
+            System.out.println(b);
+        }
     }
 }

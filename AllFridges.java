@@ -32,6 +32,12 @@ class AllFridges {
             System.out.println(h);
         }
 
+        System.out.println("Panasonic Fridges");
+        String[] panasonic = PanasonicFridge.getFridgeModels();
+        for(String p : panasonic){
+            System.out.println(p);
+        }
+
         System.out.println("Bosch Fridges");
         String[] bosch = BoschFridge.getFridgeModels();
         for(String b : bosch){
