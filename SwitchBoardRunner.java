@@ -1,13 +1,12 @@
-class SwitchBoardRunner {
-public static void main(String[] args) {
-SwitchBoard.brand();
+class switchBoardRunner{
 
-SwitchBoard.switchCount(6);
+public static void main(String[] args){
 
-int switchBoardPrice = SwitchBoard.price();
-System.out.println("Price: " + switchBoardPrice);
+SwicthBoard obj1=new SwitchBoard();
+obj1.personName = "Sowndarya";
+obj1.brandName2 = Lisha
 
-String switchBoardColor = SwitchBoard.color("White");
-System.out.println("Color: " + switchBoardColor);
+    SwicthBoard obj2=new SwitchBoard();	
 }
+
 }
