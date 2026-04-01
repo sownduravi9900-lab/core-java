@@ -1,26 +1,16 @@
 class AirPurifierRunner {
+public static void main(String[] args) {
+// check air purifier status
+AirPurifier.checkAirPurifierStatus();
 
-    public static void main(String[] args) {
+// turn on air purifier
+AirPurifier.turnOnAirPurifier();
 
-        System.out.println("Running AirPurifier Class");
+// check again
+AirPurifier.checkAirPurifierStatus();
 
-        AirPurifier.checkAirPurifierIsOnOrOff();
-        AirPurifier.turnOnAirPurifier();
-        AirPurifier.checkAirPurifierIsOnOrOff();
-
-        int currentLevel = AirPurifier.getCurrentLevel();
-        System.out.println("Current Level is : " + currentLevel);
-
-        System.out.println("Increasing " + AirPurifier.incLevel());
-        System.out.println("Increasing " + AirPurifier.incLevel());
-        System.out.println("Increasing " + AirPurifier.incLevel());
-        System.out.println("Increasing " + AirPurifier.incLevel());
-        System.out.println("Increasing " + AirPurifier.incLevel());
-
-        System.out.println("Decreasing " + AirPurifier.decLevel());
-        System.out.println("Decreasing " + AirPurifier.decLevel());
-        System.out.println("Decreasing " + AirPurifier.decLevel());
-        System.out.println("Decreasing " + AirPurifier.decLevel());
-        System.out.println("Decreasing " + AirPurifier.decLevel());
-    }
+// display fan speed
+int speed = AirPurifier.getFanSpeed();
+System.out.println("Air Purifier Fan Speed is : " + speed);
+}
 }

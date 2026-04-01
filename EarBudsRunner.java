@@ -1,27 +1,19 @@
 class EarBudsRunner {
 
-    public static void main(String[] args) {
+public static void main(String[] args) {
 
-        System.out.println("Running EarBuds Class");
+// check connection
+EarBuds.checkConnection();
 
-        EarBuds.checkEarBudsConnection();
-        EarBuds.connectEarBuds();
-        EarBuds.checkEarBudsConnection();
+// connect earbuds
+EarBuds.connectEarBuds();
 
-        
-        int currentVolume = EarBuds.getCurrentVolume();
-        System.out.println("Current Volume is : " + currentVolume);
+// check again
+EarBuds.checkConnection();
 
-        System.out.println("Increasing " + EarBuds.incVolume());
-        System.out.println("Increasing " + EarBuds.incVolume());
-        System.out.println("Increasing " + EarBuds.incVolume());
-        System.out.println("Increasing " + EarBuds.incVolume());
-        System.out.println("Increasing " + EarBuds.incVolume());
+// display battery percentage
+double battery = EarBuds.getBatteryPercentage();
+System.out.println("EarBuds Battery : " + battery + "%");
 
-        System.out.println("Decreasing " + EarBuds.decVolume());
-        System.out.println("Decreasing " + EarBuds.decVolume());
-        System.out.println("Decreasing " + EarBuds.decVolume());
-        System.out.println("Decreasing " + EarBuds.decVolume());
-        System.out.println("Decreasing " + EarBuds.decVolume());
-    }
+}
 }

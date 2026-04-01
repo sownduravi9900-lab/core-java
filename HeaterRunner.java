@@ -1,26 +1,19 @@
 class HeaterRunner {
 
-    public static void main(String[] args) {
+public static void main(String[] args) {
 
-        System.out.println("Running Heater Class");
+// check heater status
+Heater.checkHeaterStatus();
 
-        Heater.checkHeaterIsOnOrOff();
-        Heater.turnOnHeater();
-        Heater.checkHeaterIsOnOrOff();
+// turn on heater
+Heater.turnOnHeater();
 
-        int currentTemperature = Heater.getCurrentTemperature();
-        System.out.println("Current Temperature is : " + currentTemperature);
+// check again
+Heater.checkHeaterStatus();
 
-        System.out.println("Increasing " + Heater.incTemperature());
-        System.out.println("Increasing " + Heater.incTemperature());
-        System.out.println("Increasing " + Heater.incTemperature());
-        System.out.println("Increasing " + Heater.incTemperature());
-        System.out.println("Increasing " + Heater.incTemperature());
+// display heating level
+int level = Heater.getHeatingLevel();
+System.out.println("Heating Level is : " + level);
 
-        System.out.println("Decreasing " + Heater.decTemperature());
-        System.out.println("Decreasing " + Heater.decTemperature());
-        System.out.println("Decreasing " + Heater.decTemperature());
-        System.out.println("Decreasing " + Heater.decTemperature());
-        System.out.println("Decreasing " + Heater.decTemperature());
-    }
+}
 }

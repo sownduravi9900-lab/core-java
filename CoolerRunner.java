@@ -1,26 +1,18 @@
 class CoolerRunner {
+public static void main(String[] args) {
 
-    public static void main(String[] args) {
+// check cooler status
+Cooler.checkCoolerStatus();
 
-        System.out.println("Running Cooler Class");
+// turn on cooler
+Cooler.turnOnCooler();
 
-        Cooler.checkCoolerIsOnOrOff();
-        Cooler.turnOnCooler();
-        Cooler.checkCoolerIsOnOrOff();
+// check again
+Cooler.checkCoolerStatus();
 
-        int currentSpeed = Cooler.getCurrentSpeed();
-        System.out.println("Current Speed is : " + currentSpeed);
+// display fan speed
+int speed = Cooler.getFanSpeed();
+System.out.println("Cooler Fan Speed is : " + speed);
 
-        System.out.println("Increasing " + Cooler.incSpeed());
-        System.out.println("Increasing " + Cooler.incSpeed());
-        System.out.println("Increasing " + Cooler.incSpeed());
-        System.out.println("Increasing " + Cooler.incSpeed());
-        System.out.println("Increasing " + Cooler.incSpeed());
-
-        System.out.println("Decreasing " + Cooler.decSpeed());
-        System.out.println("Decreasing " + Cooler.decSpeed());
-        System.out.println("Decreasing " + Cooler.decSpeed());
-        System.out.println("Decreasing " + Cooler.decSpeed());
-        System.out.println("Decreasing " + Cooler.decSpeed());
-    }
+}
 }

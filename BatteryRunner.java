@@ -2,25 +2,18 @@ class BatteryRunner {
 
     public static void main(String[] args) {
 
-        System.out.println("Running Battery Class");
+   // check battery status
+Battery.checkBatteryStatus();
 
-        Battery.checkBatteryConnection();
-        Battery.connectBattery();
-        Battery.checkBatteryConnection();
+  // insert battery
+Battery.insertBattery();
 
-        int currentCharge = Battery.getCurrentCharge();
-        System.out.println("Current Charge is : " + currentCharge);
+   // check again
+Battery.checkBatteryStatus();
 
-        System.out.println("Increasing " + Battery.incCharge());
-        System.out.println("Increasing " + Battery.incCharge());
-        System.out.println("Increasing " + Battery.incCharge());
-        System.out.println("Increasing " + Battery.incCharge());
-        System.out.println("Increasing " + Battery.incCharge());
+    // display battery level
+int level = Battery.getBatteryLevel();
+System.out.println("Battery Level is : " + level + "%");
 
-        System.out.println("Decreasing " + Battery.decCharge());
-        System.out.println("Decreasing " + Battery.decCharge());
-        System.out.println("Decreasing " + Battery.decCharge());
-        System.out.println("Decreasing " + Battery.decCharge());
-        System.out.println("Decreasing " + Battery.decCharge());
-    }
+}
 }
