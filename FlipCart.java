@@ -5,11 +5,11 @@ class FlipCart {
     float rating;
     boolean isAvailable;
     FlipCart(String itemName, int stock, double discountPrice, float rating, boolean isAvailable) {
-        this.itemName = itemName;
-        this.stock = stock;
-        this.discountPrice = discountPrice;
-        this.rating = rating;
-        this.isAvailable = isAvailable;
+        itemName = itemName;
+        stock = stock;
+        discountPrice = discountPrice;
+        rating = rating;
+        isAvailable = isAvailable;
     }
     void display() {
         System.out.println("Item Name: " + itemName);

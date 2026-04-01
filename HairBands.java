@@ -5,10 +5,10 @@ class HairBands {
     boolean isElastic;
 
     HairBands(String material, String style, int stretchLevel, boolean isElastic) {
-        this.material = material;
-        this.style = style;
-        this.stretchLevel = stretchLevel;
-        this.isElastic = isElastic;
+        material = material;
+        style = style;
+        stretchLevel = stretchLevel;
+        isElastic = isElastic;
     }
 
 

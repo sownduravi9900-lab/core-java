@@ -4,10 +4,10 @@ class Instagram {
     int following;
     boolean isPrivate;
 Instagram(String userName, int followers, int following, boolean isPrivate) {
-        this.userName = userName;
-        this.followers = followers;
-        this.following = following;
-        this.isPrivate = isPrivate;
+        userName = userName;
+        followers = followers;
+        following = following;
+        isPrivate = isPrivate;
     }
     void display() {
         System.out.println("User Name: " + userName);

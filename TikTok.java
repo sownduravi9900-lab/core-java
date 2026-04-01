@@ -6,11 +6,11 @@ class TikTok {
     boolean isTrending;
 
     TikTok(String creatorName, long totalViews, float videoDuration, int likes, boolean isTrending) {
-        this.creatorName = creatorName;
-        this.totalViews = totalViews;
-        this.videoDuration = videoDuration;
-        this.likes = likes;
-        this.isTrending = isTrending;
+        creatorName = creatorName;
+        totalViews = totalViews;
+        videoDuration = videoDuration;
+        likes = likes;
+        isTrending = isTrending;
     }
 
     void display() {

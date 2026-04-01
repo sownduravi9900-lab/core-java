@@ -7,11 +7,11 @@ class ChatGpt {
 
    
     ChatGpt(String userName, int questionsAsked, double usageHours, char planType, boolean isSubscribed) {
-        this.userName = userName;
-        this.questionsAsked = questionsAsked;
-        this.usageHours = usageHours;
-        this.planType = planType;
-        this.isSubscribed = isSubscribed;
+        userName = userName;
+        questionsAsked = questionsAsked;
+        usageHours = usageHours;
+        planType = planType;
+        isSubscribed = isSubscribed;
     }
     void display() {
         System.out.println("User Name: " + userName);

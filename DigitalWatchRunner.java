@@ -7,6 +7,9 @@ class DigitalWatchRunner{
 	       
 		  DigitalWatch obj2 = new DigitalWatch("Noise",4000,299,"M");
 	      obj2.display();
+		  
+		  DigitalWatchcobj3 = new DigitalWatch();
+		  obj3.display();
 	}
 
 }

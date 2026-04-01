@@ -6,11 +6,11 @@ class Amazon {
     boolean isPrime;
 
     Amazon(String productName, int quantity, double price, char categoryCode, boolean isPrime) {
-        this.productName = productName;
-        this.quantity = quantity;
-        this.price = price;
-        this.categoryCode = categoryCode;
-        this.isPrime = isPrime;
+        productName = productName;
+        quantity = quantity;
+        price = price;
+        categoryCode = categoryCode;
+        isPrime = isPrime;
     }
 
    

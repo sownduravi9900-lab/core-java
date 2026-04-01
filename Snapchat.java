@@ -5,10 +5,10 @@ class Snapchat {
     boolean hasStreak;
 	
     Snapchat(String snapUser, double snapScore, char gender, boolean hasStreak) {
-        this.snapUser = snapUser;
-        this.snapScore = snapScore;
-        this.gender = gender;
-        this.hasStreak = hasStreak;
+        snapUser = snapUser;
+        snapScore = snapScore;
+        gender = gender;
+        hasStreak = hasStreak;
     }
     void display() {
         System.out.println("Snap User: " + snapUser);

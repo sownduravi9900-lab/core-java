@@ -6,11 +6,11 @@ class Twitter {
     boolean isVerified;
 
     Twitter(String handle, int tweetsCount, long impressions, double engagementRate, boolean isVerified) {
-        this.handle = handle;
-        this.tweetsCount = tweetsCount;
-        this.impressions = impressions;
-        this.engagementRate = engagementRate;
-        this.isVerified = isVerified;
+        handle = handle;
+        tweetsCount = tweetsCount;
+        impressions = impressions;
+        engagementRate = engagementRate;
+        isVerified = isVerified;
     }
 
     void display() {

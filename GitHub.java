@@ -6,11 +6,11 @@ class GitHub {
     boolean isPrivate;
 
     GitHub(String repoName, String owner, int stars, double version, boolean isPrivate) {
-        this.repoName = repoName;
-        this.owner = owner;
-        this.stars = stars;
-        this.version = version;
-        this.isPrivate = isPrivate;
+        repoName = repoName;
+        owner = owner;
+        stars = stars;
+        version = version;
+        isPrivate = isPrivate;
     }
     void display() {
         System.out.println("Repo Name: " + repoName);

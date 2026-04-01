@@ -6,10 +6,10 @@ class Facebook {
 
    
     Facebook(String userName, int followers, int posts, boolean isVerified) {
-        this.userName = userName;
-        this.followers = followers;
-        this.posts = posts;
-        this.isVerified = isVerified;
+        userName = userName;
+        followers = followers;
+        posts = posts;
+        isVerified = isVerified;
     }
 
     

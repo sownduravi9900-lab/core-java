@@ -5,10 +5,10 @@ class Chart {
     String color;
 
     Chart(String title, String type, int dataPoints, String color) {
-        this.title = title;
-        this.type = type;
-        this.dataPoints = dataPoints;
-        this.color = color;
+        title = title;
+        type = type;
+        dataPoints = dataPoints;
+        color = color;
     }
 
     void display() {
