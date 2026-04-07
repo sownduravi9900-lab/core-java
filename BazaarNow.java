@@ -81,6 +81,12 @@ class BazaarNow {
         } else if ("farmhouse"==item) {
             total = price * quantity;
             return total;
+            } else if ("Lays"==item) {
+            total = price * quantity;
+            return total;
+            } else if ("Pani Puri"==item) {
+            total = price * quantity;
+            return total;
         } else {
             return 0;
         }
