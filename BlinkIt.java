@@ -63,7 +63,7 @@ class BlinkIt {
         } else if ("Gobi"==item) {
             total = price * quantity;
             return total;
-        } else if ("Gobi"==item) {
+        } else if ("Curd rice"==item) {
             total = price * quantity;
             return total;
         } else if ("Pani puri"==item) {
