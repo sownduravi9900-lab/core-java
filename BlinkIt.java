@@ -60,7 +60,13 @@ class BlinkIt {
         if ("VegPizzaS" == item) {
             total = price * quantity;
             return total;
-        } else if ("farmhouse"==item) {
+        } else if ("Gobi"==item) {
+            total = price * quantity;
+            return total;
+        } else if ("Gobi"==item) {
+            total = price * quantity;
+            return total;
+        } else if ("Pani puri"==item) {
             total = price * quantity;
             return total;
         } else {
