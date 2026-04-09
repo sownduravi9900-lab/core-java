@@ -74,7 +74,7 @@ beverages[11] = "Smoothie";
  beverages[15] = "SoftDrink";
 
 String[] cleaning = new String[16];
-cleaning[0] = "Detergent";
+cleaning[0] = "Detergent";       
 cleaning[1] = "FloorCleaner";
 cleaning[2] = "DishWash";
 cleaning[3] = "ToiletCleaner";
